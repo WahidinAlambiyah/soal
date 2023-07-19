@@ -4,15 +4,16 @@
   </div>
 
   <div class="col-md-9">
-    <h1 class="display-4"><span jhiTranslate="home.title">Welcome, Java Hipster!</span> (Soal)</h1>
-
-    <p class="lead" jhiTranslate="home.subtitle">This is your homepage</p>
+    <h1 class="display-4"><span jhiTranslate="home.title">Welcome, PT Dans Multi Pro!</span></h1>
 
     <div [ngSwitch]="account !== null">
       <div class="alert alert-success" *ngSwitchCase="true">
-        <span id="home-logged-message" *ngIf="account" jhiTranslate="home.logged.message" [translateValues]="{ username: account.login }"
-          >You are logged in as user "{{ account.login }}".</span
-        >
+        <span id="home-logged-message" *ngIf="account">Youasdasd are logged in as user "{{ account.login }}".</span>
+      </div>
+
+      <div class="alert alert-success" *ngSwitchCase="true">
+        <span id="home-logged-message" *ngIf="account">Jawaban </span>&nbsp;
+        <a class="alert-link" routerLink="admin/docs">Disini</a>
       </div>
 
       <div class="alert alert-warning" *ngSwitchCase="false">
@@ -24,17 +25,10 @@
         >
       </div>
 
-      <div class="alert alert-warning" *ngSwitchCase="false">
-        <span jhiTranslate="global.messages.info.register.noaccount">You don't have an account yet?</span>&nbsp;
-        <a class="alert-link" routerLink="account/register" jhiTranslate="global.messages.info.register.link">Register a new account</a>
+      <div class="alert alert-danger" *ngSwitchCase="false">
+        <span>Jawaban Soal Setelah Login dan Akses API</span>&nbsp;
+        <a class="alert-link" (click)="login()">Sign in</a>
       </div>
     </div>
-
-    <p>
-      <span jhiTranslate="home.like">If you like JHipster, don't forget to give us a star on</span>
-      <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener noreferrer" jhiTranslate="home.github"
-        >GitHub</a
-      >!
-    </p>
   </div>
 </div>

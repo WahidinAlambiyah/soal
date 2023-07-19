@@ -4,6 +4,7 @@ import com.alambiyah.soal.security.jwt.JWTFilter;
 import com.alambiyah.soal.security.jwt.TokenProvider;
 import com.alambiyah.soal.web.rest.vm.LoginVM;
 import com.fasterxml.jackson.annotation.JsonProperty;
+import io.swagger.v3.oas.annotations.Hidden;
 import javax.validation.Valid;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpStatus;
@@ -17,6 +18,7 @@ import org.springframework.web.bind.annotation.*;
 /**
  * Controller to authenticate users.
  */
+@Hidden
 @RestController
 @RequestMapping("/api")
 public class UserJWTController {
@@ -30,6 +32,7 @@ public class UserJWTController {
         this.authenticationManagerBuilder = authenticationManagerBuilder;
     }
 
+    @Hidden
     @PostMapping("/authenticate")
     public ResponseEntity<JWTToken> authorize(@Valid @RequestBody LoginVM loginVM) {
         UsernamePasswordAuthenticationToken authenticationToken = new UsernamePasswordAuthenticationToken(

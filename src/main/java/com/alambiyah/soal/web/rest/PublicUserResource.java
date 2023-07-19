@@ -2,8 +2,8 @@ package com.alambiyah.soal.web.rest;
 
 import com.alambiyah.soal.service.UserService;
 import com.alambiyah.soal.service.dto.UserDTO;
+import io.swagger.v3.oas.annotations.Hidden;
 import java.util.*;
-import java.util.Collections;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.data.domain.Page;
@@ -16,6 +16,7 @@ import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import tech.jhipster.web.util.PaginationUtil;
 
+@Hidden
 @RestController
 @RequestMapping("/api")
 public class PublicUserResource {
@@ -38,6 +39,7 @@ public class PublicUserResource {
      * @param pageable the pagination information.
      * @return the {@link ResponseEntity} with status {@code 200 (OK)} and with body all users.
      */
+    @Hidden
     @GetMapping("/users")
     public ResponseEntity<List<UserDTO>> getAllPublicUsers(@org.springdoc.api.annotations.ParameterObject Pageable pageable) {
         log.debug("REST request to get all public User names");
@@ -58,6 +60,7 @@ public class PublicUserResource {
      * Gets a list of all roles.
      * @return a string list of all roles.
      */
+    @Hidden
     @GetMapping("/authorities")
     public List<String> getAuthorities() {
         return userService.getAuthorities();
