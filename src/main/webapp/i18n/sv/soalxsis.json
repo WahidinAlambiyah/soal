@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Skapa en ny Soalxsis",
+        "createOrEditLabel": "Skapa eller ändra en Soalxsis",
+        "notFound": "No Soalxses found"
+      },
+      "created": "En ny Soalxsis är skapad med id {{ param }}",
+      "updated": "En Soalxsis är uppdaterad med id  {{ param }}",
+      "deleted": "En Soalxsis är borttagen med id  {{ param }}",
+      "delete": {
+        "question": "Är du säker på att du vill ta bort Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

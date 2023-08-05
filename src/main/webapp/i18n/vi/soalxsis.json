@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Thêm mới một Soalxsis",
+        "createOrEditLabel": "Thêm mới hoặc cập nhật Soalxsis",
+        "notFound": "No Soalxses found"
+      },
+      "created": "Một Soalxsis mới được tạo với định danh {{ param }}",
+      "updated": "Một Soalxsis cập nhật với định danh {{ param }}",
+      "deleted": "Một Soalxsis đã xóa với định danh {{ param }}",
+      "delete": {
+        "question": "Bạn có chắc là muốn xóa Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

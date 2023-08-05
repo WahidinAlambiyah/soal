@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Värskenda nimekirja",
+        "createLabel": "Lisa uus Soalxsis",
+        "createOrEditLabel": "Lisa või muuda Soalxsis",
+        "notFound": "Ei leitud ühtegi Soalxses"
+      },
+      "created": "Uus Soalxsis on loodud identifikaatoriga {{ param }}",
+      "updated": "Soalxsis identifikaatoriga {{ param }} on muudetud",
+      "deleted": "Soalxsis identifikaatoriga {{ param }} on kustutatud",
+      "delete": {
+        "question": "Kas olete kindel, et soovite kustutada Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

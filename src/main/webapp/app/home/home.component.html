@@ -1,0 +1,34 @@
+<div class="row">
+  <div class="col-md-3">
+    <span class="hipster img-fluid rounded"></span>
+  </div>
+
+  <div class="col-md-9">
+    <h1 class="display-4"><span jhiTranslate="home.title">Welcome, PT Dans Multi Pro!</span></h1>
+
+    <div [ngSwitch]="account !== null">
+      <div class="alert alert-success" *ngSwitchCase="true">
+        <span id="home-logged-message" *ngIf="account">Youasdasd are logged in as user "{{ account.login }}".</span>
+      </div>
+
+      <div class="alert alert-success" *ngSwitchCase="true">
+        <span id="home-logged-message" *ngIf="account">Jawaban </span>&nbsp;
+        <a class="alert-link" routerLink="admin/docs">Disini</a>
+      </div>
+
+      <div class="alert alert-warning" *ngSwitchCase="false">
+        <span jhiTranslate="global.messages.info.authenticated.prefix">If you want to </span>
+        <a class="alert-link" (click)="login()" jhiTranslate="global.messages.info.authenticated.link">sign in</a
+        ><span jhiTranslate="global.messages.info.authenticated.suffix"
+          >, you can try the default accounts:<br />- Administrator (login="admin" and password="admin") <br />- User (login="user" and
+          password="user").</span
+        >
+      </div>
+
+      <div class="alert alert-danger" *ngSwitchCase="false">
+        <span>Jawaban Soal Setelah Login dan Akses API</span>&nbsp;
+        <a class="alert-link" (click)="login()">Sign in</a>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Buat Soalxsis baru",
+        "createOrEditLabel": "Buat atau edit Soalxsis",
+        "notFound": "No Soalxses found"
+      },
+      "created": "Soalxsis dengan id {{ param }} telah dibuat",
+      "updated": "Soalxsis dengan id {{ param }} telah diperbaharui",
+      "deleted": "Soalxsis dengan id {{ param }} telah dihapus",
+      "delete": {
+        "question": "Apakah anda yakin ingin menghapus Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}
