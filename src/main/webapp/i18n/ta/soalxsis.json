@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Soalxsis-ஐ உருவாக்கு",
+        "createOrEditLabel": "Soalxsis -ஐ மாற்று (அ) உருவாக்கு",
+        "notFound": "No Soalxses found"
+      },
+      "created": "Soalxsis புதிதாக உருவாக்கப்பட்டது, அடையாளம் {{ param }}",
+      "updated": "Soalxsis மாற்றப்பட்டது, அடையாளம்  {{ param }}",
+      "deleted": "A Soalxsis நீக்கப்பட்டது, அடையாளம {{ param }}",
+      "delete": {
+        "question": "நீக்குவதற்கு உறுதி செய் Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Krijo një të ri Soalxsis",
+        "createOrEditLabel": "Krijo ose përpuno një Soalxsis",
+        "notFound": "No Soalxses found"
+      },
+      "created": "Një Soalxsis i ri u krijua me identifikues {{ param }}",
+      "updated": "Një Soalxsis u përpunua me identifikues {{ param }}",
+      "deleted": "Një Soalxsis u fshi me identifikues {{ param }}",
+      "delete": {
+        "question": "Jeni i sigurtë që doni të fshini Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

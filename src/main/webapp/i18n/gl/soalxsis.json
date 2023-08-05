@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Crear novo Soalxsis",
+        "createOrEditLabel": "Crear ou editar Soalxsis",
+        "notFound": "No Soalxses found"
+      },
+      "created": "Un novo Soalxsis foi creado co identificador {{ param }}",
+      "updated": "Un Soalxsis foi actualizado co identificador {{ param }}",
+      "deleted": "Un Soalxsis foi eliminado co identificador {{ param }}",
+      "delete": {
+        "question": "Seguro que desexa eliminar Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

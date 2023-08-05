@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Kreirati Soalxsis",
+        "createOrEditLabel": "Kreirati ili urediti Soalxsis",
+        "notFound": "Nije nađeno Soalxses"
+      },
+      "created": "Kreiran je Soalxsis sa identifikatorom {{ param }}",
+      "updated": "Ažuriran je Soalxsis sa identifikatorom {{ param }}",
+      "deleted": "Obrisan je Soalxsis sa identifikatorom {{ param }}",
+      "delete": {
+        "question": "Da li ste sigurni da želite obrisati Soalxsis {{ id }}?"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}

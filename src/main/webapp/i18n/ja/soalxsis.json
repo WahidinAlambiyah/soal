@@ -1,0 +1,29 @@
+{
+  "soalApp": {
+    "soalxsis": {
+      "home": {
+        "title": "Soalxses",
+        "refreshListLabel": "Refresh list",
+        "createLabel": "Soalxsis を追加",
+        "createOrEditLabel": "Soalxsisを追加または編集",
+        "notFound": "No Soalxses found"
+      },
+      "created": "A new Soalxsis is created with identifier {{ param }}",
+      "updated": "A Soalxsis is updated with identifier {{ param }}",
+      "deleted": "A Soalxsis is deleted with identifier {{ param }}",
+      "delete": {
+        "question": "Soalxsis {{ id }}を削除してもよろしいですか？"
+      },
+      "detail": {
+        "title": "Soalxsis"
+      },
+      "id": "ID",
+      "title": "Title",
+      "description": "Description",
+      "rating": "Rating",
+      "image": "Image",
+      "created_at": "Created At",
+      "updated_at": "Updated At"
+    }
+  }
+}
